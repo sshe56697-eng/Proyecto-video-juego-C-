@@ -1,7 +1,7 @@
 # Parcial Final - Game Dungeon Crawler 
 
 ## Integrante
-- **[Samuel David Moreno Cruz]**
+- **Samuel David Moreno Cruz**
 
 ---
 
