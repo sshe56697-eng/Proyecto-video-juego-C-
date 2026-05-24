@@ -5,8 +5,8 @@ Aqui se explica los desarrollos innovadores que se le hicieron al juego para que
 ### ¿Para qué se implementó?
 Para que el mapa del juego se refresque de forma natural y limpia en la pantalla cada vez que el jugador se mueve sin flickering.
 
-¿Por qué se consideró necesario?
-### Porque el comando típico de borrar toda la pantalla en cada turno hace que la consola parpadee mucho, lo cual es molesto para la vista y se ve mal. Con esto, el juego se siente continuo.
+### ¿Por qué se consideró necesario?
+Porque el comando típico de borrar toda la pantalla en cada turno hace que la consola parpadee mucho, lo cual es molesto para la vista y se ve mal. Con esto, el juego se siente continuo.
 
 ### ¿Cómo se llevó a cabo su implementación?
 Se usaron comandos de texto invisibles (códigos ANSI) que le dicen a la terminal que mueva el cursor arriba al inicio y pinte el mapa encima del anterior, en vez de borrar y redibujar todo.
