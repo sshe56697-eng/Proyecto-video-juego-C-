@@ -25,8 +25,10 @@ Es importante antes de empezar tener instalado:
 
 ### En Windows (Consola CMD)
 g++ -Iinclude src/main.cpp -o ProjectGame.exe
+
 ProjectGame.exe
 
 ### En Linux / macOS (Terminal Bash)
 g++ -Iinclude src/main.cpp -o ProjectGame
+
 ./ProjectGame
