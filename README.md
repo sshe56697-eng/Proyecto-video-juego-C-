@@ -16,32 +16,17 @@ El proyecto cuenta con 3 desarrollos adicionales:
 ---
 
 ## Instrucciones de Compilación y Ejecución
-
-Este proyecto usa **CMake** para automatizar el proceso y garantizar que funcione en Windows, Linux y macOS.
+Abra la terminal de su sistema (CMD en Windows o Bash en Linux/macOS), sitúese en la raíz del proyecto y ejecute los comandos correspondientes:
 
 ### 1. Requisitos Previos
 Es importante antes de empezar tener instalado:
 * Un compilador compatible con C++17 
 * CMake versión 3.10
 
-### 2. Clonar el Repositorio
-Abra la terminal de su sistema, escriba el comando git clone seguido del link de este repositorio, y luego entre a la carpeta del juego:
+### En Windows (Consola CMD)
+g++ -Iinclude src/main.cpp -o ProjectGame.exe
+ProjectGame.exe
 
-git clone https://github.com/sshe56697-eng/Proyecto-video-juego-C-
-cd Proyecto-video-juego-C-
-
-### Pasos para compilar
-Ejecute los siguientes comandos uno por uno dentro de la raíz del proyecto:
-
-mkdir build
-cd build
-cmake ..
-cmake --build .
-
-### Pasos para jugar
-
-#### En Windows (CMD):
-.\Debug\ProjectGame.exe
-
-#### En Linux / macOS (Terminal):
+### En Linux / macOS (Terminal Bash)
+g++ -Iinclude src/main.cpp -o ProjectGame
 ./ProjectGame
